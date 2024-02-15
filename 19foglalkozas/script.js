@@ -1,11 +1,5 @@
-let sum = 0
+let i = 3
 
-while (true) {
-    let value = +prompt("Adj meg egy számot:", '')
-
-    if (!value) break
-
-    sum += value
+while (i) {
+    alert(i--)
 }
-
-alert('Összeg: ' + sum)

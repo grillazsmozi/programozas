@@ -1,4 +1,4 @@
-let a = 2 + 2
+let a = "Almaaa"
 
 switch (a) {
     case 3:
@@ -14,5 +14,5 @@ switch (a) {
         break
     
     default:
-        alert('Nem tudom értelmezi...')
+        alert('Nem tudom értelmezi.')
 }

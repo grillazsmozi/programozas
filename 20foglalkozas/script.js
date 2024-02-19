@@ -6,7 +6,6 @@ switch (a) {
     case 1:
         alert(1)
     case 2:
-        alert("2,3")
     case 3:
         alert("2,3")
 } 

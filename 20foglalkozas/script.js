@@ -1,6 +1,9 @@
-let a = "Almaaa"
+let a = +prompt('Írj be egy számot')
+let b = +prompt('Írj be megint egy számot')
 
-switch (a) {
+let sum = a + b
+
+switch (sum) {
     case 3:
         alert('Túl kicsi!')
         break

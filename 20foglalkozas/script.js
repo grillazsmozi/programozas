@@ -1,21 +1,9 @@
-let a = +prompt('Írj be egy számot')
-let b = +prompt('Írj be megint egy számot')
+let browser = prompt('Mi a böngésződ?')
 
-let sum = a + b
-
-switch (sum) {
-    case 3:
-        alert('Túl kicsi!')
-        break
-
-    case 4:
-        alert('Pontosan!')
-        break
-
-    case 5:
-        alert('Túl nagy!')
-        break
-    
-    default:
-        alert('Nem tudom értelmezi.')
+if (browser === "Edge") {
+    alert("You've got the Edge!")
+} else if (browser === "Chrome" || browser === "Firefox" || browser === "Safari" || browser === "Opera") {
+    alert('Okay, we support these browsers too.')
+} else {
+    alert('We hope that this page looks okay!')
 }
